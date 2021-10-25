@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeCount Life D-day</title>
+  <meta name="title" content="LifeCount Life`s D-day">
+  <meta name="subject" content="Motivation for success, life D-day calculator to find out the rest of your life.">
+  <meta name="keywords" content="LifeCount, Life D-day, D-day calculator, D-day, success, Motivation, change">
+  <meta name="description"
+    content="Do you need motivation for success? Let me tell you the rest of your life, a life D-day calculator that recognizes the rest of your life.">
+  <meta property="og:title" content="라이프카운트 LifeCount 인생 디데이(D-day)">
+  <meta property="og:description"
+    content="Do you need motivation for success? Let me tell you the rest of your life, a life D-day calculator that recognizes the rest of your life.">
+  <link rel="canonical" href="https://lifecount.netlify.app/en/index.html">
+  <meta name="google-site-verification" content="yLfkfmjlAW9xMJFb2Hwc2l_pwcXHJlwOink2ROcGEpc" />
+  <meta name="naver-site-verification" content="1934eff277f8b1a6807505f79b49aeafc1579a75" />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/styleIntroduce.css">
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-615656b5d7440951"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9085706556829179"
+  crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZW69PEPN0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EZW69PEPN0');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="topnav">
+      <a href="index.html" id="logo"><span id="logoLife">Life</span><span id=logoCount>Count</span></a>
+      <nav id="menu">
+        <div id="languageBox">
+          <label for="language">Language :</label>
+          <select name="language" id="language" onchange="changeLanguage(this)">
+            <option value="en" lang="en">English</option>
+            <option value="ja" lang="ja">日本語</option>
+            <option value="ko" lang="ko">한국어</option>
+          </select>
+        </div>
+        <a href="introduce.html">Introduce the site</a>
+        <a href="introduceYoutube.html">Motivation YouTube (Preparing)</a>
+        <a href="introduceYoutube.html">Motivation Book (Preparing)</a>
+        <a href="introduceYoutube.html">Bulletin board (Preparing)</a>
+      </nav>
+      <a href="javascript:void(0);" id="icon" onclick="menu()">≡</a>
+    </div>
+    <div id="subTitle">
+      <h2>Life D-Day</h2>
+      <h2>Motivation for success</h2>
+    </div>
+  </header>
+  <main>
+    <form id="container1">
+      <div id="inputBirth">
+        <h3>Please enter your date of birth</h3>
+        <select name="birthYear" id="birthYear">
+        </select>
+        <label for="birthYear"><b>Year&nbsp;&nbsp;&nbsp;</b></label><br>
+        <select name="birthMonth" id="birthMonth">
+        </select>
+        <label for="birthMonth"><b>Month</b></label><br>
+        <select name="birthDay" id="birthDay">
+        </select>
+        <label for="birthDay"><b>Day&nbsp;&nbsp;&nbsp;&nbsp;</b></label><br>
+      </div>
+      <div id="inputLifeSpan">
+        <h3>Please choose your life expectancy</h3>
+        <p>(The default value is 80 years old)</p>
+        <select name="lifeSpan" id="lifeSpan">
+        </select>
+        <label for="lifeSpan"><br><b>years old</b></label>
+        <div id="check"><button onclick="result(); showResult(); return false;">Check your Life D-Day</button></div>
+      </div>
+    </form>
+    <div id="result">
+      <div id="beforeDays">
+        <h3>The day you've lived so far</h3>
+        <p>'<span id="beforeDay"></span>'days.</p>
+      </div>
+      <div id="afterDays">
+        <h3>The rest of the days</h3>
+        <p>'<span id="afterDay"></span>'days.</p>
+      </div>
+      <h3>Every precious day<br>I hope you have a great day</h3>
+          <div id="home"><button onclick="beforeResult();">Check again</button></div>
+    </div>
+  </main>
+
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <div class="addthis_inline_share_toolbox"></div>
+
+  <div id="disqus_thread"></div>
+  <footer>
+    <p>Connect</p>
+    <p>Email : kiros0104@gmail.com</p>
+  </footer>
+
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://lifecount.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+  <script src="../js/lifeCount.js"></script>
+  <script src="../js/result.js"></script>
+  <script src="../js/mobileMenu.js"></script>
+</body>
+
+</html>

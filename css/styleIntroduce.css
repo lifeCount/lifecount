@@ -1,0 +1,28 @@
+#introduce {
+  width: 95%;
+  height: 300px;
+  border: 1px solid rgb(170, 170, 255);
+  margin: 20px auto;
+  padding: 20px 15px;
+  border-radius: 30px;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 85, 85);
+}
+p {
+  margin-top: 20px;
+  line-height: 20px;
+}
+#toHome {
+  margin: 0 auto;
+  text-align: center;
+}
+#toHomeButton {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}

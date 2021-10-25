@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lifecount.netlify.app/</loc>
+  <lastmod>2021-10-06T04:26:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lifecount.netlify.app/index.html</loc>
+  <lastmod>2021-10-06T04:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lifecount.netlify.app/ko/introduce.html</loc>
+  <lastmod>2021-10-06T04:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lifecount.netlify.app/ko/introduceyoutube</loc>
+  <lastmod>2021-10-06T04:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lifecount.netlify.app/ko/index.html</loc>
+  <lastmod>2021-10-06T04:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/en/</loc>
+<lastmod>2021-10-06T04:27:10+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/en/index.html</loc>
+<lastmod>2021-10-06T04:27:10+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/en/introduce.html</loc>
+<lastmod>2021-10-06T04:27:10+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/en/introduceyoutube</loc>
+<lastmod>2021-10-06T04:27:10+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/ja/</loc>
+<lastmod>2021-10-06T04:28:32+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/ja/index.html</loc>
+<lastmod>2021-10-06T04:28:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/ja/introduce.html</loc>
+<lastmod>2021-10-06T04:28:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://lifecount.netlify.app/ja/introduceyoutube</loc>
+<lastmod>2021-10-06T04:28:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+</urlset>
